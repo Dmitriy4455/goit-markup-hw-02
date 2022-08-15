@@ -33,16 +33,19 @@ body {
 /*site-nav*/
 .site-nav .link {
    color: var(--section-title-colot);
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--accent-color);
 }
 .site-nav .link.current {
-    color: orange);
+    color: darkblue;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.2;
+    line-height: 1.14;
 }
 .list {
     list-style: none;
@@ -53,7 +56,7 @@ body {
     background-color: var(--section-title-colot);
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.4
+    line-height: 1.4;
     text-align: center;
 }
 
@@ -82,7 +85,7 @@ body {
 
 }
 .button.secondary {
-    color: var(--section-title-colot));
+    color: var(--section-title-colot);
     background-color: #F5F4FA;
     font-weight: 500;
     font-size: 16px;
