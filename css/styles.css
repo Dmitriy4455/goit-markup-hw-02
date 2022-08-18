@@ -44,12 +44,12 @@ body {
         letter-spacing: 0.03em;
         text-decoration: none;
 }
-.logo .footer:hover,
-.logo .footer:focus {
-    color: var(--accent-color);
-}
 .logo .header:hover,
 .logo .header:focus {
+    color: var(--accent-color);
+ }   
+.logo .footer:hover,
+.logo .footer:focus {
     color: var(--accent-color);
 }
 .page-header {
